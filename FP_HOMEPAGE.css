@@ -1,0 +1,41 @@
+@font-face {
+    src:url(Karrik-Regular.ttf);
+    font-family: karrik;
+}
+
+.wrapper{
+    align-content: center;
+    max-width:1fr;
+    max-height:1fr;
+}
+
+h1 {color: black;
+    font-size:50px;
+    font-family : karrik;
+    text-align: center;
+}
+
+body{
+    font-family: karrik;
+    font-size:30px
+}
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+a:hover{
+    color:greenyellow;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:500px;
+}
+
+
+
+

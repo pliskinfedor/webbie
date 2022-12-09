@@ -1,0 +1,40 @@
+@font-face {
+    src:url(Karrik-Regular.ttf);
+    font-family: karrik;
+}
+
+@font-face {
+    src:url(RomanAntique-Italic.ttf);
+    font-family: antique;
+}
+
+h1 {color: red;
+    font-size:50px;
+    font-family : antique;
+}
+
+body{
+    padding: 30px 30px 30px;
+    font-family: karrik;
+    font-size:30px
+}
+
+a {
+    color: greenyellow;
+    text-decoration: none;
+    
+}
+
+a:hover{color:blueviolet}
+
+img,
+picture {
+  max-width: 500%;
+  display: block;
+}
+
+.grid {
+    display:grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: 100px;
+}

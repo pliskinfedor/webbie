@@ -1,0 +1,53 @@
+@font-face {
+    src:url(Karrik-Regular.ttf);
+    font-family: karrik;
+}
+
+
+@font-face {
+    src:url(RomanAntique-Italic.ttf);
+    font-family: antique;
+}
+
+
+@font-face {
+    src:url(sporting_grotesque_normal.otf);
+    font-family:sporting;}
+
+
+h1 {color: red;
+    font-size:50px;
+    font-family : antique;
+}
+
+body{
+    font-family: sporting;
+    font-size:20px;
+    line-height: 25px;
+        
+    padding: 30px 30px 30px;
+
+}
+
+a { font-family: karrik;
+    color: greenyellow;
+    text-decoration: none;
+}
+
+a:hover{color:blueviolet}
+
+
+.wrapper {
+  display: grid;
+  padding-top: 30px;
+  grid-template-columns: 500px 500px;
+  grid-auto-rows: minmax(100px, auto);
+  column-gap: 100px;
+  grid-row-gap: 1em;
+  
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
